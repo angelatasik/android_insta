@@ -1,24 +1,21 @@
 <resources>
     <string name="app_name">app_insta</string>
+    <string name="hello">HELLO!</string>
+    <string name="register">Register</string>
+    <string name="Log_in">login</string>
+    <string name="FullName">fullname</string>
+    <string name="let_login">now</string>
+    <string name="now_login">now</string>
+    <string name="Register">register</string>
+    <string name="Password">pass</string>
+    <string name="Email">email</string>
+    <string name="Username">username</string>
+    <string name="now_sign_up">sign_up</string>
+    <string name="app_name">RetrofitAndroid</string>
+    <string name="todo">TODO</string>
 
-    <string-array name="account_titles">
-        <item>account1</item>
-        <item>account2</item>
-        <item>account3</item>
-        <item>account4</item>
-        <item>account5</item>
-        <item>account6</item>
-        <item>account7</item>
-    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <array name="account_images">
-        <item>@drawable/slika1</item>
-        <item>@drawable/slika2</item>
-        <item>@drawable/slika3</item>
-        <item>@drawable/slika4</item>
-        <item>@drawable/slika5 </item>
-        <item>@drawable/slika6</item>
-        <item>@drawable/slika7</item>
-    </array>
 
 </resources>

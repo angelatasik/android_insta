@@ -1,4 +1,4 @@
 package com.example.retrofitandroid.Models;
 
-public @interface Expose {
+public @interface SerializedName {
 }

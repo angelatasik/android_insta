@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="postsImage" type="id">постимг</item>
+    <item name="avatar" type="id">Avatar</item>
+    <item name="numoflikes" type="id">numberoflikes</item>
+    <item name="created" type="id">created</item>
+    <item name="recyclerView1" type="id">recyclerview1</item>
+    <item name="button1" type="id">button</item>
+    <item name="edittext" type="id">editText</item>
+</resources>

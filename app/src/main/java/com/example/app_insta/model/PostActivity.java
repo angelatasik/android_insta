@@ -1,8 +1,10 @@
 package com.example.app_insta.model;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.app_insta.R;
 
 public class PostActivity extends AppCompatActivity {
 

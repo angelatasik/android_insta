@@ -1,4 +1,4 @@
-package com.example.app_insta;
+package com.example.app_insta.model;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.app_insta.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class StartActivity extends AppCompatActivity{
@@ -20,7 +21,7 @@ public class StartActivity extends AppCompatActivity{
         firebaseUser= (FirebaseUser) FirebaseAuth.getInstance().getCurrentUser();
 
         if (firebaseUser != null) {
-            startActivity(new Intent(StartActivity.this,MainActivity.class));
+            startActivity(new Intent(StartActivity.this, MainActivity.class));
             finish();
         }
     }
@@ -41,7 +42,7 @@ public class StartActivity extends AppCompatActivity{
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(StartActivity.this,RegisterActivity.class));
+                startActivity(new Intent(StartActivity.this, RegisterActivity.class));
             }
         });
     }

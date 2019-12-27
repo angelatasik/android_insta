@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayou
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="8dp"
+    tools:context=".model.MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_result"
+        android:textColor="#000"
+        android:layout_contrainBottom_toBottomOf="parent"
+        android:layout_contrainLeft_toLeftOf="parent"
+        android:layout_contrainRight_toRightOf="parent"
+        android:layout_contrainTop_toTopOf="parent"/>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom"
+        android:id="@+id/fragment_container"/>
+
+    <app.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.BottonNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_navigation"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/bottom_navigation"/>
+
+    </app.support.design.widget.AppBarLayout>
+
+</RelativeLayou>
